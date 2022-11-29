@@ -25,17 +25,16 @@
                     "Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar." Josué 1:9
                 </p>
             </section>
-            <div class="descr-two"><h2>Escolher quantos Versículos gerar</h2></div>
+            <div class="descr-two"><h2>Gerar Mais de um Versículo</h2></div>
             <section class="sec-two">
                 <div id="generator-sec">
                     <div class="container">
                         <form class="container--config-lorem-form" id="form">
                             <div class="container--config-lorem-form--config" id="cont-range">
-                                <h3>Gerar versículos de acordo com a quantidade escolhida.</h3>
-                                <input class="container--config-lorem-form--config--range" placeholder="Total de parágrafos" type="range" min="1" max="50" value="2" id="range" />
+                                <h3>Quantos devem aparecer?</h3>
+                                <input class="container--config-lorem-form--config--range" type="range" min="1" max="50" value="2" id="range">
                                 <span class="container--config-lorem-form--config--number" id="number-range">2</span>
-                                <label class="container--config-lorem-form--paragraph" for="paragraph"></label>
-                                <button onclick="mostrar()" class="generate" type="submit" class="container--config-lorem-form--config--button">Gerar</button>
+                                <button onclick="mostrar()" type="submit" class="container--config-lorem-form--config--button generate">Gerar</button>
                                 <button onclick="apagar()" id="delete">Apagar</button>
                             </div>
                         </form>
@@ -53,7 +52,30 @@
                         </div>
                     </div>
                 </div>  
-            </section>    
+            </section> 
+            <div class="descr-three"><h2>Versículos Bíblicos por tema</h2></div>
+            <section class="sec-three">
+                <nav class="theme">
+                    <a href="versiculos-consolo.html" target="_Self" title="Versículos de consolo">Versículos de consolo</a>
+                    <a href="versiculos-forca.html" target="_Self" title="Versículos de Força">Versículos de Força</a>
+                    <a href="versiculosgratidao.html" target="_Self" title="Versículos de Gratidão">Versículos de Gratidão</a>
+                    <a href="versiculosmotivacao.html" target="_Self" title="Versículos de Motivação">Versículos de Motivação</a>
+                    <a href="versiculos-quem-triste.html" target="_Self" title="Versículos para quem está triste">Versículos para quem está triste</a>
+                    <a href="#" target="_Self" title="Versículos de Esperança">Versículos de Esperança</a>
+                    <a href="#" target="_Self" title="">Versículos para Jovens</a>
+                    <a href="#" target="_Self" title="">Vercículos para Casais</a>
+                    <a href="#" target="_Self" title="">Vercículos para Mulheres</a>
+                    <a href="#" target="_Self" title="">Vercículos para Crianças</a>
+                    <a href="#" target="_Self" title="">Vercículos para Idosos</a>
+                </nav>
+                <nav class="theme-mobile">
+                    <a href="versiculos-consolo.html" target="_Self" title="Versículos de consolo">Versículos de consolo</a>
+                    <a href="versiculos-forca.html" target="_Self" title="Versículos de Força">Versículos de Força</a>
+                    <a href="versiculosgratidao.html" target="_Self" title="Versículos de Gratidão">Versículos de Gratidão</a>
+                    <a href="versiculosmotivacao.html" target="_Self" title="Versículos de Motivação">Versículos de Motivação</a>
+                    <a href="#" target="_Self" title="Mais temas"><span id="all-themes">Mais temas</span></a>
+                </nav>
+            </section>   
             <div class="box-article">
                     <article class="article">
                         <header>
@@ -66,15 +88,6 @@
                     </article>
             </div>
         </main>
-        <div class="descr-three"><h2>Versículos Bíblicos por tema</h2></div>
-        <section class="sec-three">
-        <nav class="theme">
-            <a href="versiculos-consolo.html" target="_Self" title="Versículos de consolo">Versículos de consolo</a>
-            <a href="versiculos-forca.html" target="_Self" title="Versículos de Força">Versículos de Força</a>
-            <a href="versiculosgratidao.html" target="_Self" title="Versículos de Gratidão">Versículos de Gratidão</a>
-            <a href="versiculosmotivacao.html" targe="_Self" title="Versículos de Motivação">Versículos de Motivação</a>
-            <a href="versiculos-quem-triste.html" target="_Self" title="Versículos para quem está triste">Versículos para quem está triste</a>
-        </nav>
         <footer class="footer">
             <p>&#169; Copyright 2022 // <a href="index.html" target="_Self" title="Gerador de Versículo Bíblico">Gerador de Versículo Bíblico</a> // <a rel="author" href="mailto:sudojrr@gmail.com?subject=Contato%20Gerador%20De%20Versiculos" target="_Self" title="Contato">Entre em Contato</a></p>
         </footer>
