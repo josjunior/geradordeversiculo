@@ -210,7 +210,53 @@ body {background-color:rgb(0, 0, 0); color:rgb(255, 255, 255);}
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
 }
+.descr-three {
+    margin:auto;
+    max-width:990px;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    background-color:rgb(20, 20, 20);
+}
+.descr-three h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:0.90rem;
+    font-style:oblique;
+    text-transform: uppercase;
+    padding-left:10px;
+    color:rgb(173, 173, 173);
+}
+.theme {
+    margin:auto;
+    max-width:990px;
+    width:100%;    
+    background-color:rgb(31, 30, 30);
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding:10px;
+}
+.theme a:link {
+    font-size:1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgb(92, 92, 92);
+    margin-left:45px;
 
+}
+.theme a:visited {
+    color:rgb(92, 92, 92);
+}
+.theme a:hover {
+    color:rgb(124, 124, 124);
+}
+.theme a:active {
+    color:rgb(92, 92, 92);
+}
 .footer {
     background-color: rgb(0, 0, 0);
     margin:auto;
@@ -243,4 +289,47 @@ body {background-color:rgb(0, 0, 0); color:rgb(255, 255, 255);}
 }
 .footer p a:active {
     color:rgb(92, 92, 92);
+}
+.sec-four {
+    max-width:100%;
+    width:1155px;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    padding:25px;
+    padding-top:30px;
+    padding-bottom:20px;
+    background-color:rgb(10, 10, 10);
+}
+.sec-four p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2rem;
+    font-weight:bold;
+    font-style:oblique;
+    color:rgb(211, 211, 211);
+    background-color:rgb(19, 18, 18);
+    border-radius:10px;
+    padding:10px;
+    margin-bottom:15px;
+}
+.bt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width:990px;
+    width:100%;
+} 
+.bt-back {
+    background-color: rgb(160, 92, 2);
+    border-style: none;
+    outline-style:none;
+    border-radius:50px;
+    height:30px;
+    font-size:1em;
+    padding:7px;
+    text-align:left;
 }
