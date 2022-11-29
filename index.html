@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Gerador de Versículo Bíblico</title>
+        <meta name="description" content="Gerador de Versículo Bíblico aleatório versículo para quem está triste e angustiado">
+        <meta name="keywords" content="gerador, versículo, bíblia, bíblico, aleatório, versos, consolo, força, gratidão, motivação">
+        <meta name="author" content="José Júnior">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="images/ic.png">
+    </head>
+    <body>
+        <header class="header">
+            <h1><a href="index.html" target="_Self" title="Gerador de Versículos">Gerador de <span>Versículo</span></a></h1>
+        </header>
+        <main class="main">
+            <div class="descr-one"><h2>Gerar um Versículo aleatório</h2></div>
+            <section class="sec-one">
+                <button onclick="gerarFrase()" id="button-next">Próximo Versículo</button>
+                <p id="frase-gerada">
+                    "Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar." Josué 1:9
+                </p>
+            </section>
+            <div class="descr-two"><h2>Escolher quantos Versículos gerar</h2></div>
+            <section class="sec-two">
+                <div id="generator-sec">
+                    <div class="container">
+                        <form class="container--config-lorem-form" id="form">
+                            <div class="container--config-lorem-form--config" id="cont-range">
+                                <h3>Gerar versículos de acordo com a quantidade escolhida.</h3>
+                                <input class="container--config-lorem-form--config--range" placeholder="Total de parágrafos" type="range" min="1" max="50" value="2" id="range" />
+                                <span class="container--config-lorem-form--config--number" id="number-range">2</span>
+                                <label class="container--config-lorem-form--paragraph" for="paragraph"></label>
+                                <button onclick="mostrar()" class="generate" type="submit" class="container--config-lorem-form--config--button">Gerar</button>
+                                <button onclick="apagar()" id="delete">Apagar</button>
+                            </div>
+                        </form>
+                        <div class="container--lorem-text" id="paragraphs">
+                            <div>
+                                <p>
+                                    "Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus." Romanos 12:2 
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    "Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus." Filipenses 4:6
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>    
+            <div class="box-article">
+                    <article class="article">
+                        <header>
+                            <h2>História da Bíblia</h2>
+                        </header>
+                            <p>
+                                A Bíblia é o primeiro livro que foi impresso da história. A propagação da Bíblia se iniciou em Jerusalém e alcançou todas as sociedades. Além disso a influencia da Bíblia para a vida das pessoas é enorme ela é o livro que mais influenciou a humanidade.                      
+                                A Bíblia é a ferramenta para entendimento da vontade de Deus para a humanidade. É uma revelação especial de Deus para nossas vidas, ela revela quem é Deus, o que ele fez por nós, além de revelar a melhor maneira de refletir sua maravilhosa obra em nós.
+                            </p>
+                    </article>
+                </div>
+        </main>
+        <footer class="footer">
+            <p>&#169; Copyright 2022 // <a href="index.html" target="_Self" title="Gerador de Versículo aleatório da Bíblia">Gerador de Versículo Bíblico</a> // <a rel="author" href="mailto:sudojrr@gmail.com?subject=Contato%20Gerador%20De%20Versiculos" target="_Self" title="Contato">Contato</a></p>
+        </footer>
+        <script src="js/gscript.js"></script> 
+        <script src="js/script.js"></script>
+    </body>
+</html>
