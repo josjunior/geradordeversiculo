@@ -67,3 +67,12 @@ let frases = [
   function mostrar() {
     document.getElementById("paragraphs").style.display = "block";
   }
+
+  function openNav() {
+    document.getElementById("myNav").style.width = '100%';
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = '0%';
+  }
+
